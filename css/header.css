@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(91, 73, 88,0.8);
+}
+
+header *{
+    text-decoration: none;
+    color: white;
+}
+
+nav, #nav1>a{
+    display: flex;
+    align-items: center;
+    
+}
+
+
