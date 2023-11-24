@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    overflow-x:hidden ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 155, 24);
+    background-image:url(../media/baniere.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+    height: 150px;
+    text-decoration: none;
+}
+
+nav *{
+    text-decoration: none ;
+    color: white ;
+    font-size: 50px;
+
+
+}
+
+nav, #nav1>a{
+    display: flex;
+    align-items: center;
+    
+}
+@font-face {
+    font-family: "animeace";
+    src: url("../font/animeace_i.ttf");
+}
+
+* {
+    font-family: "animeace";
+}
+
+img{
+    margin: 20px
+}
+
+#titre{
+    margin: 5px;
+
+}
+
+#tire{
+    margin: 5px;
+    color: rgb(255, 0, 0); 
+
+}
+
+footer .textefooter a{
+    color: beige;
+    margin: 20px;
+
+
+}
+footer div{
+
+}
+#insta{
+    margin-bottom: 15px;
+}
