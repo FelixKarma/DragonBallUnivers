@@ -1,0 +1,49 @@
+body { font-family: sans-serif; }
+
+.scene {
+  width: 900px;
+  height: 504px;
+  border: 1px solid #CCC;
+  margin: 40px 0;
+  perspective: 600px;
+
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+  
+ 
+}
+
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  backface-visibility: hidden;
+ 
+}
+
+.card__face--front {
+  background-image: url("../Dragon\ Ball\ la\ légende\ de\ Shenron.jfif");
+  background-size:cover ;
+  
+}
+
+.card__face--back {
+  background:black;
+  transform: rotateY(180deg);
+ 
+}

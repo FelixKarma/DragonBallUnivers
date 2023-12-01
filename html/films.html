@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Films </title>
+    <link rel="stylesheet" href="../css/films.css">
+
+</head>
+
+<body>
+    <h1>Films</h1>
+
+
+    <div class="scene scene--card1" onclick="flip(0)">
+        <div class="card">
+            <div class="card__face card__face--front class">
+                <h2>Dragon Ball : La légende de Shenron</h2>
+            </div>
+            <div class="card__face card__face--back">
+                <p>Bulma et ses compagnons tentent de récupérer les sept boules de cristal pendant que Sangoku et ses
+                    amis participent à un tournoi d'arts martiaux.</p>
+
+
+                <p> Date de sortie : 20 Décembre 1986</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="scene scene--card2" onclick="flip(1)">
+        <div class="card">
+            <div class="card__face card__face--front ">front</div>
+            <div class="card__face card__face--back">back</div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+function flip(number) {
+    var card = document.querySelectorAll('.card');
+    
+        card[number].classList.toggle('is-flipped');
+        
+    
+}
+
+    </script>
+
+
+
+</body>
+
+</html>
