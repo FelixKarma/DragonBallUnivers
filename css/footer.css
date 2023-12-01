@@ -2,7 +2,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(91, 73, 88,0.8);
+    background-color: rgba(11, 9, 11, 0.9);
 }
 footer *{
     text-decoration: none;
