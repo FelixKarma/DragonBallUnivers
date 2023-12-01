@@ -1,9 +1,7 @@
 body{
     margin: 0;
     overflow-x:hidden ;
-    background-image:url(../media/2feb97087d41615ba57ff34f707e796d.jpg );
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 #header{
@@ -43,7 +41,6 @@ div ul li{
     display: block;
 
 }
-
 
 #div1>a{
     display: flex;
