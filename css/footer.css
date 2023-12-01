@@ -9,11 +9,6 @@ footer *{
     color: white;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-}
-    
 #center{
     display: flex;
     justify-content: space-evenly;
