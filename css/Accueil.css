@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+}
+@font-face {
+    font-family: saiyan;
+    src: url(../font/Saiyan-Sans\ Left\ Oblique.ttf);
+}
+body{
+    overflow-x: hidden;
+}
+
+#first{
+    background: url(../media/Accueil/background2.png) fixed;
+    background-size:cover;
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#first a {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vignette{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height:500px;
+    border: solid rgb(225, 27, 27) 3px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.43);
+    
+}
+.rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+.vignette h1{
+    text-align: center;
+    color: aliceblue ;
+}
+#first img{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 100%;
+}
+
+#film{
+    background: url(../media/Accueil/vignettemovie.png)
+}
+#manga{
+    background: url(../media/Accueil/vignetteManga.png);
+}
+#jeux{
+    background: url(../media/Accueil/vignetteGame.png) no-repeat;
+    background-size: cover;
+}
+#séries{
+    background: url(../media/Accueil/vignetteSerie.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #welcom h1{
+    padding-left:100px;
+    padding-top:100px;
+    font-family: saiyan;
+    color: #dd0f0d;
+    font-size: 80px;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+} */
+
+
