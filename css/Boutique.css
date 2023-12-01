@@ -1,0 +1,15 @@
+/* .card-img{
+    height: 200px !important;
+    width: 200px !important;
+} */
+
+.card-img-top{
+    width: 80% !important;
+}
+
+
+h1 {font-size: 120px ; 
+    font-family: "animeace" ;
+    text-align: center;
+    color: orange !important;}
+
