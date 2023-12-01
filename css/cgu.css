@@ -27,6 +27,7 @@ body::before{
     font-size: 30px;
     -webkit-text-stroke: 0.1px black;
 }
+
 h4{
     text-align: center;
     color: #fff;
