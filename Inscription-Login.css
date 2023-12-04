@@ -22,3 +22,7 @@ body{
     margin: 0;
     overflow-x:hidden ;
 }
+footer{
+    position: fixed;
+    bottom: 0;
+}
