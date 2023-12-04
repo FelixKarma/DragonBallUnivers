@@ -21,7 +21,7 @@ header[0].innerHTML = `
 
     <div id="div1">
         <a href="accueil.html">
-            <img src="../media/db-removebg-preview.png" alt="dbz" width="14%" />
+            <img src="../media/db-removebg-preview.png" alt="dbz" width="13.5%" />
             <h2 id="titre">DB</h2>
             <h2 id="tire">UNIVERSE</h2>
 
@@ -44,16 +44,16 @@ nav.innerHTML = `
         <h2><a href="">Films</a></h2>
         <h2><a href="">Fan Art</a></h2>
         <h2><a href="">Jeux Vidéos</a></h2>
-        <h2><a href="">Boutique</a></h2>
+        <h2><a href="Boutique.html">Boutique</a></h2>
 `
 header[0].after(nav)
 
 footer[0].innerHTML = `
         <h2 class="textefooter"><a href="">FAQ</a>
-            <a href="cgu.html">CGU</a>
+            <a href="../css/cgu.html">CGU</a>
         </h2>
         <div>
-            <a href="https://discord.gg/x8whU3Tx" target="_blank"><img src="../media/footer/🦆 icon _discord_.png"
+            <a href="https://discord.com/invite/Xuu9WUNGQ6" target="_blank"><img src="../media/footer/🦆 icon _discord_.png"
                     alt="liens" width="55" height="40"></a>
             <a href="https://twitter.com/home" target="_blank"><img src="../media/footer/Vector.png" alt="liens"
                     width="50" height="40"></a>
