@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dgbauniverse.serie</title>
+    <link rel="shorcut icon" href="shenron icone2.jpg">
+    <link rel="stylesheet" href="serie.css">
+</head>
+
+<body>
+    <h1>Série</h1>
+    <!-- Dragon ball -->
+    <div>
+        <div class="scene scene--card">
+            <div class="card" onclick="flip(0)">
+                <div class="card__face card__face--front0"></div>
+
+
+                <!-- Recto db -->
+                
+                <!-- Verso db -->
+                <div class="card__face card__face--back">
+                    <h2>Dragon Ball</h2>
+                    <!-- Synopsis -->
+
+                    <p> Son Goku, un jeune garçon intrépide doté d’une queue de singe et d’une force herculéenne, vit
+                        reclus au pied d’une montagne, loin de toute civilisation. Depuis la mort de son grand-père, il
+                        chérit la mystérieuse boule de cristal que ce dernier lui a laissée en héritage. Sa rencontre
+                        avec une jeune femme, l’amènera à partir en quête des Dragon Ball, dont la réunion permettrait
+                        de faire apparaître le dragon sacré, capable d’exaucer n’importe quel vœu. C’est le début d’une
+                        grande épopée, riche en péripéties, qui commence pour nos deux apprentis héros </p>
+
+                    <!-- Trailer -->
+                    <video src="Dbtrailer.mp4" height="250" autoplay, muted, loop, alt="Trailer Dragon ball"></video>
+                    <!-- Opening/Ending -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+    <!-- Dragon ball Z -->
+    <div>
+        <div class="scene scene--card">
+            <div class="card" onclick="flip(1)">
+                <div class="card__face card__face--front1"></div>
+
+                <!-- Recto dbz -->
+                
+                
+                <!-- Verso dbz -->
+                <div class="card__face card__face--back">
+                    <h2>Dragon ball Z</h2>
+
+                    <!-- Synopsis -->
+
+                    <p> Depuis leur mariage, Son Goku et sa femme vivent des jours heureux en famille. Seulement, cette
+                        apparente
+                        tranquillité se retrouve ébranlée par l’arrivée de son frère doté d’une force surhumaine. Afin
+                        de
+                        l’enjoindre à rejoindre sa cause, ce dernier kidnappe son fils. Aidé par ses amis, Son Goku va
+                        tout mettre
+                        en œuvre afin de le libérer.</p>
+
+                    <!-- Trailer -->
+                    <video src="dbztrailer.mp4" height="250" autoplay, muted, loop, alt="Trailer Dragon ball Z"></video>
+                    <!-- Opening/Ending -->
+
+
+                </div>
+            </div>
+
+                <!-- Dragon ball Super -->
+                <div>
+                    <div class="scene scene--card">
+                        <div class="card" onclick="flip(2)">
+                            <div class="card__face card__face--front2"></div>
+
+
+                            <!-- Recto db -->
+                            
+                            <!-- Verso db -->
+                            <div class="card__face card__face--back">
+                                <h2 id="db">Dragon Ball Super</h2>
+                                <!-- Synopsis -->
+
+                                <p> Depuis qu'il a sauver le sort de l'univers, Son Goku, travaille désormais comme
+                                    fermier pour subvenir aux besoins de sa famille, espèrant pouvoir vivre en toute
+                                    quiétude auprès de ses proches. Mais dans les confins obscurs de la galaxie, un
+                                    nouveau antagoniste, se réveille après des décennies de léthargie. Accompagné de son
+                                    assistant, il cherche à contrer la prophétie selon laquelle un « Dieu » viendrait à
+                                    bout de son hégémonie </p>
+
+                                <!-- Trailer -->
+                                <video src="Dbstrailer.mp4" height="250" autoplay, muted, loop,
+                                    alt="Trailer Dragon ball Super"></video>
+                                <!-- Opening/Ending -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                <!-- Dragon ball GT -->
+                <div>
+                    <div class="scene scene--card">
+                        <div class="card" onclick="flip(3)">
+                            <div class="card__face card__face--front3"></div>
+
+
+                            <!-- Recto db -->
+                            
+                            <!-- Verso db -->
+                            <div class="card__face card__face--back">
+                                <h2 id="db">Dragon Ball GT</h2>
+                                <!-- Synopsis -->
+
+                                <p>En dérobant les Dragon Ball ultimes, d’anciennes boules de cristal, un ancien ennemi espère enfin pouvoir asseoir sa domination sur le monde. En dépit de sa volonté, Son Goku redevient malencontreusement enfant. Dans son malheur, si celles-ci ne sont pas de nouveau réunies sous un an, la Terre connaîtra un funeste sort. Accompagné de 2 compagnons, il part à la recherche de ces dernières afin de sauver sa planète de la destruction.</p>
+
+                                <!-- Trailer -->
+                                <video src="dbgttrailer.mp4" height="250" autoplay, muted, loop,
+                                    alt="Trailer Dragon ball GT"></video>
+                                <!-- Opening/Ending -->
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <script>
+                        var card = document.querySelectorAll('.card');
+
+                        function flip(number) {
+                            card[number].classList.toggle('is-flipped');
+                        }
+                    </script>
+
+</body>
+
+</html>
