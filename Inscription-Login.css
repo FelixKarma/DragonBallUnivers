@@ -1,0 +1,28 @@
+main{
+    display: flex; 
+    justify-content: center !important;  
+}
+
+.col1{
+    opacity: 0.7;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.col2{
+    opacity: 0.7;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+body{
+    background-color: black;
+    background-image: url("media/kame-house.jpg");
+    background-size: cover;
+    margin: 0;
+    overflow-x:hidden ;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}

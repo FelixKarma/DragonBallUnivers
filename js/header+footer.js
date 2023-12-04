@@ -36,17 +36,17 @@ header[0].innerHTML = `
     </div>
 </div>
 
-
-
-<nav>
-    <h2><a href="">Séries</a></h2>
-    <h2><a href="">Films</a></h2>
-    <h2><a href="">Fan Art</a></h2>
-    <h2><a href="">Jeux Vidéos</a></h2>
-    <h2><a href="">Boutique</a></h2>
-
-</nav>
 `
+
+let nav = document.createElement("nav");
+nav.innerHTML = `
+        <h2><a href="">Séries</a></h2>
+        <h2><a href="">Films</a></h2>
+        <h2><a href="">Fan Art</a></h2>
+        <h2><a href="">Jeux Vidéos</a></h2>
+        <h2><a href="">Boutique</a></h2>
+`
+header[0].after(nav)
 
 footer[0].innerHTML = `
         <h2 class="textefooter"><a href="">FAQ</a>
