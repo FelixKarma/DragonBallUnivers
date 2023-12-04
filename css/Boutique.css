@@ -3,13 +3,16 @@
     width: 200px !important;
 } */
 
-.card-img-top{
-    width: 80% !important;
+.card-img-top {
+    width: 75% !important;
 }
 
 
-h1 {font-size: 120px ; 
-    font-family: "animeace" ;
+#btq {
+    font-size: 70px;
+    font-family: "animeace";
     text-align: center;
-    color: orange !important;}
+    color: orange !important;
+}
+
 
