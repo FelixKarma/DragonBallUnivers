@@ -21,7 +21,7 @@ header[0].innerHTML = `
 
     <div id="div1">
         <a href="accueil.html">
-            <img src="../media/db-removebg-preview.png" alt="dbz" width="15%" />
+            <img src="../media/db-removebg-preview.png" alt="dbz" width="14%" />
             <h2 id="titre">DB</h2>
             <h2 id="tire">UNIVERSE</h2>
 

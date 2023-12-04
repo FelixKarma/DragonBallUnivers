@@ -32,6 +32,11 @@ body{
     font-family: "animeace";
 
 }
+#div1 a img{
+    border: 1px solid white;
+    border-radius: 100px;
+
+}
 
 div ul {
     display: none;
@@ -93,10 +98,13 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     background-color: rgba(11, 9, 11, 0.9);
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0; /* required */
+    position: fixed;
     width: 100%;
-    z-index: 99;
+
     
+}
+#profil{
+    border: 2px solid aliceblue;
+    border-radius: 100px;
+
 }
