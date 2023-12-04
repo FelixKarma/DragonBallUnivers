@@ -1,8 +1,26 @@
 body { font-family: sans-serif; }
 
-.scene {
+.scene--card1 {
   width: 900px;
   height: 504px;
+  border: 1px solid #CCC;
+  margin: 40px 0;
+  perspective: 600px;
+
+}
+.scene--card2 {
+  width: 900px;
+  height: 500px;
+  border: 1px solid #CCC;
+  margin: 40px 0;
+  perspective: 600px;
+
+}
+
+
+.scene--card3 {
+  width: 900px;
+  height: 500px;
   border: 1px solid #CCC;
   margin: 40px 0;
   perspective: 600px;
@@ -18,7 +36,7 @@ body { font-family: sans-serif; }
   transform-origin: center right;
   transition: transform 1s;
   
- 
+  
 }
 
 .card.is-flipped {
@@ -36,14 +54,45 @@ body { font-family: sans-serif; }
  
 }
 
-.card__face--front {
+.bg1 {
   background-image: url("../Dragon\ Ball\ la\ légende\ de\ Shenron.jfif");
   background-size:cover ;
   
 }
+.bg2 {
+  background-image: url("../Dragon\ Ball\ Z\ Fusions.jfif");
+  background-size:cover ;
+  
+}
+.bg3{
+  background-image: url("../Dragon\ ball\ GT.jpg");
+  background-size: cover;
+}
+  
 
 .card__face--back {
   background:black;
   transform: rotateY(180deg);
  
 }
+
+h2{
+ color:black ;
+}
+
+.cg2{
+  background-color: black;
+}
+.cg3{
+
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+ 
