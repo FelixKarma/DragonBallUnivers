@@ -1,9 +1,7 @@
 body{
     margin: 0;
     overflow-x:hidden ;
-    background-image:url(../media/2feb97087d41615ba57ff34f707e796d.jpg );
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 #header{
@@ -22,7 +20,7 @@ body{
     align-items: center;
 }
 
-#div1 a, nav a, #menuCo li a{
+#div1 a, nav a, #menuCo li a{  
     text-decoration: none ;
     color: white ;
     -webkit-text-stroke: 0.1px rgb(255, 255, 255);
@@ -48,7 +46,7 @@ div ul li{
 #div1>a{
     display: flex;
     align-items: center;
-    
+
 }
 @font-face {
     font-family: "animeace";
@@ -96,7 +94,13 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     background-color: rgba(11, 9, 11, 0.9);
-    position: relative;
+    position: fixed;
+    width: 100%;
 
     
+}
+#profil{
+    border: 1px solid aliceblue;
+    border-radius: 100px;
+
 }
