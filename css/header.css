@@ -23,10 +23,17 @@ body{
 #div1 a, nav a, #menuCo li a{  
     text-decoration: none ;
     color: white ;
-    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
-
-
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
 }
+
+@media only screen and (max-width: 1500px) {
+    #div1 a, nav a, #menuCo li a{  
+        text-decoration: none ;
+        color: white ;
+        -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    }
+  }
+  
 #div1 a h2{
     font-size: 90px;
     font-family: "animeace";
@@ -108,3 +115,5 @@ nav{
     border-radius: 100px;
 
 }
+
+
