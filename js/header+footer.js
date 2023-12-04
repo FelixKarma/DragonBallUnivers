@@ -21,7 +21,7 @@ header[0].innerHTML = `
 
     <div id="div1">
         <a href="accueil.html">
-            <img src="../media/db-removebg-preview.png" alt="dbz" width="140" height="140" />
+            <img src="../media/db-removebg-preview.png" alt="dbz" width="14%" />
             <h2 id="titre">DB</h2>
             <h2 id="tire">UNIVERSE</h2>
 
@@ -32,21 +32,21 @@ header[0].innerHTML = `
             <li><a href="">Connexion</a></li>
             <li><a href="">Inscription</a></li>
         </ul>
-        <img src="../media/header/logo profil (1).png" alt="profil" width="105" height="105" id="profil" />
+        <img src="../media/pp.png" alt="profil" width="105" height="105" id="profil" />
     </div>
 </div>
 
-
-
-<nav>
-    <h2><a href="">Séries</a></h2>
-    <h2><a href="">Films</a></h2>
-    <h2><a href="">Fan Art</a></h2>
-    <h2><a href="">Jeux Vidéos</a></h2>
-    <h2><a href="">Boutique</a></h2>
-
-</nav>
 `
+
+let nav = document.createElement("nav");
+nav.innerHTML = `
+        <h2><a href="">Séries</a></h2>
+        <h2><a href="">Films</a></h2>
+        <h2><a href="">Fan Art</a></h2>
+        <h2><a href="">Jeux Vidéos</a></h2>
+        <h2><a href="">Boutique</a></h2>
+`
+header[0].after(nav)
 
 footer[0].innerHTML = `
         <h2 class="textefooter"><a href="">FAQ</a>
