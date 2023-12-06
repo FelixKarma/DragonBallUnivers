@@ -21,17 +21,20 @@ body{
     align-items: center;
 }
 
-#div1 a, nav a, #menuCo li a{  
+#div1 a, #menuCo li a{  
+    -webkit-text-stroke: 3px rgb(255, 255, 255) ;
+}
+#div1 a, nav a ,#menuCo li a{  
     text-decoration: none ;
     color: white ;
-    -webkit-text-stroke: 3px rgb(255, 255, 255) ;
+    
 }
 
 @media only screen and (max-width: 1500px) {
-    #div1 a, nav a, #menuCo li a{  
+    #div1 a, #menuCo li a{  
         text-decoration: none ;
         color: white ;
-        -webkit-text-stroke: 0.1px rgb(255, 255, 255) ;
+        -webkit-text-stroke: 0.1px rgb(255, 255, 255) !important ;
     }
   }
   
@@ -114,6 +117,9 @@ nav{
     
 
     
+}
+.active{
+    color: orangered;
 }
 #profil{
     border: 2px solid aliceblue;
