@@ -14,13 +14,3 @@
     text-align: center;
     color: orange !important;
 }
-
-
-@media only screen and (max-width: 1500px) {
-    #div1 a, #menuCo li a{  
-        text-decoration: none ;
-        color: white ;
-        -webkit-text-stroke: 3px rgb(255, 255, 255) !important;
-    }
-  }
-  
