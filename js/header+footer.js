@@ -10,8 +10,15 @@ link2.href = "../css/footer.css";
 link2.type = "text/css";
 link2.rel = "stylesheet";
 
+let link3 = document.createElement( "link" );
+link3.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
+link3.crossOrigin = "anonymous";
+link3.rel = "stylesheet";
+link3.integrity = "sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN";
+
 headHtml[0].appendChild(link1)
 headHtml[0].appendChild(link2)
+headHtml[0].appendChild(link3)
 
 const header = document.getElementsByTagName("header");
 const footer = document.getElementsByTagName("footer");
@@ -60,7 +67,18 @@ footer[0].innerHTML = `
             <a href="https://www.instagram.com/dgbuniverse/" target="_blank"><img id="insta"
                     src="../media/footer/images-removebg-preview.png" alt="liens" width="50" height="50"></a>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
 `
+
+let linkBJS = document.createElement("script")
+linkBJS.src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+linkBJS.integrity = "sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+linkBJS.crossOrigin = "anonymous"
+footer[0].after(linkBJS)
+
+
 const profil = document.getElementById("profil");
 const menuCo = document.getElementById("menuCo");
 
