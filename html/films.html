@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <header></header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Films </title>
+    <link rel="stylesheet" href="../css/films.css">
+
+</head>
+
+<body>
+    <h1>Films</h1>
+
+
+    <div class="scene scene--card1" onclick="flip(0)">
+        <div class="card">
+            <div class="card__face card__face--front bg1">
+                <h1>Dragon Ball : La légende de Shenron</h1>
+            </div>
+            <div class="card__face card__face--back">
+                <p>Bulma et ses compagnons tentent de récupérer les sept boules de cristal pendant que Sangoku et ses
+                    amis participent à un tournoi d'arts martiaux.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="scene scene--card2" onclick="flip(1)">
+        <div class="card">
+            <div class="card__face card__face--front bg2">
+                <h2> Dragon Ball Z Fusions</h2>
+            </div>
+
+            <div class="card__face card__face--back cg2">
+                <p>Goku s’élève contre Janemba, un terrible monstre qui sème le chaos à la fois sur Terre et
+                    dans le monde des morts ! Le combat est rude, mais il va recevoir un soutien inattendu en la
+                    personne de Végéta, ressuscité pour l’occasion ! Pour vaincre Janemba, ils vont devoir
+                    fusionner en un guerrier ultime : Gogéta !</p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="scene scene--card3" onclick=" flip(2)">
+        <div class="card">
+            <div class="card__face card__face--front bg3">
+                <h1>Dragon Ball GT 100 ans après</h1>
+            </div>
+
+            <div class="card__face card__face--back cg3">
+                <p>L'histoire se déroule cent ans après les adieux de Son Goku dans l'épisode 64 de Dragon Ball GT. Son Goku Junior, petit-fils de Pan, part à la recherche des Dragon Balls pour soigner sa grand-mère malade. Alors trouillard et manquant de courage, il va avoir affaire à son camarade d'école Pack et à sa bande dont il est le souffre-douleur et faire surgir la puissance Saiyan permettant d'assurer la relève qu'espérait Son Goku à la suite de cette aventure. À la fin du film se trouve un dialogue entre Son Goku et Son Goku Junior à la fois comique et poignant puisqu'il clôt une fois pour toutes les histoires de Son Goku. Ce dernier apparaît subitement devant son « petit-fils » comme il l'appelle, et lui explique comment fonctionne les Dragon Balls. Un plan identique apparaît comme au début de la série, un Son Goku priant devant la boule à quatre étoiles de Son Gohan. Comme à son habitude, Son Goku disparaît subitement en faisant un dernier adieu.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <footer></footer>
+    <script>
+        function flip(number) {
+            var card = document.querySelectorAll('.card');
+
+            card[number].classList.toggle('is-flipped');
+
+
+        }
+
+    </script>
+
+
+    <script src="../js/header+footer.js"></script>
+    <script src="../js/navBar.js"></script>
+</body>
+
+</html>

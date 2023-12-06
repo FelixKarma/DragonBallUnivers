@@ -21,4 +21,15 @@ body{
     background-size: cover;
     margin: 0;
     overflow-x:hidden ;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+nav{
+    opacity: 0.7;
 }
