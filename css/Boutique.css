@@ -1,12 +1,6 @@
-/* .card-img{
-    height: 200px !important;
-    width: 200px !important;
-} */
-
-.card-img-top {
-    width: 75% !important;
+body {
+    background-image: url(../media/back-ground_image.png);
 }
-
 
 #btq {
     font-size: 70px;
@@ -14,5 +8,29 @@
     text-align: center;
     color: orange !important;
 }
+
+.test {
+    overflow: hidden;
+    
+}
+
+.card-img-top {
+    display: block;
+    margin: 0px auto;
+    height: 220px;
+    width: 80% !important;
+    object-fit: contain;
+
+}
+
+.card-img-top:hover {
+    transform: scale(1.5);
+    /* opacity: .8; */
+    transition: .5s ease;
+}
+
+
+
+
 
 
