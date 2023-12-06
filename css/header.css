@@ -22,11 +22,12 @@ body{
 }
 
 #div1 a, #menuCo li a{  
-    -webkit-text-stroke: 3px rgb(255, 255, 255) ;
+    -webkit-text-stroke: 2px rgb(255, 255, 255) ;
 }
 #div1 a, nav a ,#menuCo li a{  
     text-decoration: none ;
     color: white ;
+    
 }
 #div1 a, nav a, text.textefooter{  
     -webkit-text-stroke: 2px rgb(255, 255, 255) ;
