@@ -7,9 +7,19 @@ footer{
     margin: 0px;
 
 }
+
+footer h2{
+    font-size: 20px !important;
+    display: flex;
+    align-items: center;
+}
 footer *{
     text-decoration: none;
     color: white;
     
+}
+footer div img{
+    transform: scale(0.5);
+    margin: 0 !important;
 }
 
