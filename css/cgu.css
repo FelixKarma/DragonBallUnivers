@@ -8,6 +8,7 @@ body{
   overflow-x: hidden;
   margin: 0;
   background-color: black;
+  
 }
 
 body::before{
@@ -18,19 +19,21 @@ body::before{
     background-size: cover;
     z-index: -1;
     filter: blur(8px);
+
 }
 
 
 .titre {
     text-align: center;
-    color: #fff;
+    color: rgb(255, 30, 0);
     font-size: 30px;
     -webkit-text-stroke: 0.1px black;
+    margin-top: 40px !important;
 }
 
 h4{
     text-align: center;
-    color: #fff;
+    color: #ff4949 !important;
     font-size: 18px;
     -webkit-text-stroke: 0.1px black;
 }
