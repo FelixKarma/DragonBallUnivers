@@ -47,7 +47,7 @@ header[0].innerHTML = `
 
 let nav = document.createElement("nav");
 nav.innerHTML = `
-        <h2><a class="nav__link" href="séries.html">Séries</a></h2>
+        <h2><a class="nav__link" href="serie.html">Séries</a></h2>
         <h2><a class="nav__link" href="films.html">Films</a></h2>
         <h2><a class="nav__link" href="fanArt.html">Fan Art</a></h2>
         <h2><a class="nav__link" href="jeux.html">Jeux Vidéos</a></h2>
