@@ -92,13 +92,22 @@ img{
 
 footer .textefooter{
     color: beige;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
     font-size: 50px;
     height: 60px;
 }
 footer .textefooter a{
     color: beige;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer div{
+    /* height: 70px; */
+    display: flex;
+    align-items: center;
 }
 
 #insta{
