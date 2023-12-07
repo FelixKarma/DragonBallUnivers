@@ -6,46 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DRAGONBALLUNIVERS</title>
     <link rel="stylesheet" href="../css/Accueil.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 
 <body>
     <header></header>
     <main>
         <section id="first">
-            <a href="">
-                <section id="film" class="vignette">
+            <a href="../html/films.html">
+                <section id="film" class="vignette" onmouseover="hoverEffect()" onmouseout="removeHover()">
                     <div class="rectangle">
-                        <h1>FILM</h1>
+                        <h1 id="texteFilm">FILM</h1>
                     </div>
                 </section>
             </a>
             <img src="../media/db-removebg-preview.png" alt="" height="150">
-            <a href="">
-                <section id="manga" class="vignette">
+            <a href="../html/manga.html">
+                <section id="manga" class="vignette" onmouseover="hoverEffect1()" onmouseout="removeHover1()">
                     <div class="rectangle">
-                        <h1>MANGA</h1>
+                        <h1 id="texteManga">MANGA</h1>
                     </div>
                 </section>
             </a>
             <img src="../media/db-removebg-preview.png" alt="" height="150">
-            <a href="">
-                <section id="jeux" class="vignette">
+            <a href="../html/jeux.html">
+                <section id="jeux" class="vignette" onmouseover="hoverEffect2()" onmouseout="removeHover2()">
                     <div class="rectangle">
-                        <h1>JEUX</h1>
+                        <h1 id="texteJeux">JEUX</h1>
                     </div>
                 </section>
             </a>
             <img src="../media/db-removebg-preview.png" alt="" height="150">
-            <a href="">
-                <section id="séries" class="vignette">
+            <a href="../html/séries.html">
+                <section id="séries" class="vignette" onmouseover="hoverEffect3()" onmouseout="removeHover3()">
                     <div class="rectangle">
-                        <h1>SERIES</h1>
+                        <h1 id="texteSeries">SERIES</h1>
+                    </div>
+                </section>
+            </a>
+            <img src="../media/db-removebg-preview.png" alt="" height="150">
+            <a href="../html/fanArt.html">
+                <section id="fanArt" class="vignette" onmouseover="hoverEffect4()" onmouseout="removeHover4()">
+                    <div class="rectangle">
+                        <h1 id="texteFanArt">FAN ART</h1>
+                    </div>
+                </section>
+            </a>
+            <img src="../media/db-removebg-preview.png" alt="" height="150">
+            <a href="../html/Boutique.html">
+                <section id="boutique" class="vignette" onmouseover="hoverEffect5()" onmouseout="removeHover5()"> 
+                    <div class="rectangle">
+                        <h1 id="texteBoutique">BOUTIQUE</h1>
                     </div>
                 </section>
             </a>
     </main>
     <footer></footer>
+    <script src="../js/header+footer.js"></script>
+    <script src="../js/accueil.js"></script>
 </body>
 
 </html>
