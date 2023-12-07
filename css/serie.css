@@ -18,7 +18,7 @@ background-attachment: fixed;
  
 }
 
-.card {
+.cardM {
   position: relative;
   width: 100%;
   height: 100%;
@@ -28,11 +28,11 @@ background-attachment: fixed;
   transition: transform 1s;
 }
 
-.card.is-flipped {
+.cardM.is-flipped {
   transform: translateX(-100%) rotateY(-180deg);
 }
 
-.card__face {
+.cardM__face {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -44,26 +44,26 @@ background-attachment: fixed;
   backface-visibility: hidden;
 }
 
-.card__face--front0 {
+.cardM__face--front0 {
   background: url("../Media serie/dbfond3.jpg");
 }
-.card__face--front1 {
+.cardM__face--front1 {
   background: url("../Media serie/Dbzfond3.png");
 }
-.card__face--front2 {
+.cardM__face--front2 {
   background: url("../Media serie/dbsfond.jpg");
 }
-.card__face--front3 {
+.cardM__face--front3 {
   background: url("../Media serie/dbgtfond3.png");
 }
-.card__face--front4 {
+.cardM__face--front4 {
   background: url("../Media serie/dbdaimafond.png");
 }
-.card__face--front5 {
+.cardM__face--front5 {
   background: url("../Media serie/dbheroesfond.jpg");
 }
 
-.card__face--back {
+.cardM__face--back {
   background: rgba(255, 166, 0, 0.319);
   transform: rotateY(180deg);
 }
