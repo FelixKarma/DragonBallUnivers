@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(14, 12, 12, 0.9);
+    background-color: rgb(14, 12, 12);
     background-position: 0 50%;
     height: 120px;
     text-decoration: none;

@@ -17,7 +17,7 @@ main{
 
 body{
     background-color: black;
-    background-image: url("media/kame-house.jpg");
+    background-image: url("../media/kame-house.jpg");
     background-size: cover;
     margin: 0;
     overflow-x:hidden ;
@@ -27,6 +27,7 @@ body{
 footer{
     position: fixed;
     bottom: 0;
+    width: 100%;
     opacity: 0.7;
 }
 
