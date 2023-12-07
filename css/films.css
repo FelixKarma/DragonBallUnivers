@@ -1,49 +1,60 @@
-body { font-family: sans-serif; }
-
-.scene--card1 {
-  width: 900px;
-  height: 504px;
-  border: 1px solid #CCC;
-  margin: 40px 0;
-  perspective: 600px;
-
-}
-.scene--card2 {
-  width: 900px;
-  height: 500px;
-  border: 1px solid #CCC;
-  margin: 40px 0;
-  perspective: 600px;
-
+body { font-family: sans-serif;
+background-image:url("../media/DBS Broly.jpg");
 }
 
+.scene--cardM1 {
+  width: 486px;
+  height: 300px;
+   margin: 40px 0;
+  perspective: 600px;
+  margin-left: 15%;
+   
 
-.scene--card3 {
-  width: 900px;
-  height: 500px;
-  border: 1px solid #CCC;
+}
+.scene--cardM2 {
+  width: 486px;
+  height: 300px;
   margin: 40px 0;
   perspective: 600px;
+  margin-left: 15%;
 
 }
 
-.card {
+
+.scene--cardM3 {
+  width: 486px;
+  height: 300px;
+  margin: 40px 0;
+  perspective: 600px;
+  margin-left: 15%;
+
+}
+.scene--cardM4 {
+  width: 486px;
+  height: 300px;
+  margin: 40px 0;
+  perspective: 600px;
+  margin-left: 15%;
+}
+
+.cardM {
   position: relative;
   width: 100%;
   height: 100%;
-  cursor: pointer;
+  cursor: auto;
   transform-style: preserve-3d;
   transform-origin: center right;
   transition: transform 1s;
   
   
+  
 }
 
-.card.is-flipped {
+.cardM.is-flipped {
   transform: translateX(-100%) rotateY(-180deg);
 }
 
-.card__face {
+.cardM__face {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -51,33 +62,51 @@ body { font-family: sans-serif; }
   text-align: center;
   font-weight: bold;
   backface-visibility: hidden;
+  border-radius: 5%;
  
 }
 
 .bg1 {
-  background-image: url("../Dragon\ Ball\ la\ légende\ de\ Shenron.jfif");
-  background-size:cover ;
+  background-image: url("../media/Storyevengokuenfant3.jpg");
+  background-size: cover ;
+  border-radius: 5%;
   
 }
 .bg2 {
-  background-image: url("../Dragon\ Ball\ Z\ Fusions.jfif");
-  background-size:cover ;
+  background-image: url("../media/c0aea006-06c60ba29612_keyartofficialvideoimage FUSIONS.jpg");
+  background-size: cover ;
   
 }
 .bg3{
-  background-image: url("../Dragon\ ball\ GT.jpg");
+  background-image: url("../media/DRAGON.BALL gt 100.jpg");
+  background-size: cover;
+}
+.bg4{
+  background-image: url("../media/dragon-ball-super-super-hero-to-release-in-june-in-japan-1200x676.jpg");
   background-size: cover;
 }
   
 
-.card__face--back {
+.cardM__face--back {
   background:black;
   transform: rotateY(180deg);
+  
  
 }
 
-h2{
- color:black ;
+ p {
+  text-align: center;
+  margin-top: 25% !important;
+
+ 
+ } 
+
+
+ .cardM__face h2 {
+ color:black !important;
+ text-align: center !important;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .cg2{
@@ -88,7 +117,9 @@ h2{
   background-color: black;
 }
 
-
+div{
+  display: flex;
+}
 
 
 
