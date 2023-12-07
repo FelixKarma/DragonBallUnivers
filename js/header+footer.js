@@ -36,8 +36,8 @@ header[0].innerHTML = `
     </div>
     <div>
         <ul id="menuCo">
-            <li><a href="">Connexion</a></li>
-            <li><a href="">Inscription</a></li>
+            <li><a href="Inscription-Login.html">Connexion</a></li>
+            <li><a href="Inscription-Login.html">Inscription</a></li>
         </ul>
         <img src="../media/pp.png" alt="profil" width="105" height="105" id="profil" />
     </div>
@@ -51,6 +51,7 @@ nav.innerHTML = `
         <h2><a class="nav__link" href="films.html">Films</a></h2>
         <h2><a class="nav__link" href="fanArt.html">Fan Art</a></h2>
         <h2><a class="nav__link" href="jeux.html">Jeux Vidéos</a></h2>
+        <h2><a class="nav__link" href="OST.html">Sountracks</a></h2>
         <h2><a class="nav__link" href="Boutique.html">Boutique</a></h2>
 `
 header[0].after(nav)

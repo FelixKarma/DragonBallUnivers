@@ -17,7 +17,7 @@ body::before{
     background-image: url(../media/2feb97087d41615ba57ff34f707e796d.jpg);
     background-size: cover;
     z-index: -1;
-    -webkit-filter: blur(8px);
+    filter: blur(8px);
 }
 
 
