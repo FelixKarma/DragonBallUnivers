@@ -52,14 +52,14 @@ nav.innerHTML = `
         <h2><a class="nav__link" href="manga.html">Manga</a></h2>
         <h2><a class="nav__link" href="jeux.html">Jeux Vidal</a></h2>
         <h2><a class="nav__link" href="fanArt.html">Fan Art</a></h2>
-        <h2><a class="nav__link" href="OST.html">Sountracks</a></h2>
+        <h2><a class="nav__link" href="OST.html">Soundtracks</a></h2>
         <h2><a class="nav__link" href="Boutique.html">Boutique</a></h2>
 `
 header[0].after(nav)
 
 footer[0].innerHTML = `
-        <h2 class="textefooter"><a href="">FAQ</a>
-            <a href="../css/cgu.html">CGU</a>
+        <h2 class="textefooter"><a href="../html/FAQ.html">FAQ</a>
+            <a href="../html/cgu.html">CGU</a>
         </h2>
         <div>
             <a href="https://discord.com/invite/Xuu9WUNGQ6" target="_blank"><img src="../media/footer/🦆 icon _discord_.png"
