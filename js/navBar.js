@@ -4,6 +4,6 @@ const windowPathname = window.location.pathname;
 
 navLinkEls.forEach(navLinkEl => {
     if (navLinkEl.href.includes(windowPathname)) {
-        navLinkEl.classList.add('active');
+        navLinkEl.classList.add('active1');
     }
 });

@@ -1,0 +1,87 @@
+
+.card{
+    margin: 0.5em;
+    width: calc(100%/3);
+}
+.card-body{
+    background-color:beige;
+}
+#mangaContainer1{
+    height:100px;
+}
+
+.carousel-inner{
+    
+        width: 100%;
+        height: 100%;
+        /* Add your background pattern here */
+        background: repeating-radial-gradient(circle, #fff, #fff 5px, #000 6px);
+        background-size: 50px 100px;
+    
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 5vw !important;
+  height: 5vw !important;
+  border-radius: 20px;
+}
+
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out !important;
+}
+/* BOUTON */
+.card .btn {
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: orangered    !important;
+    min-width: 200px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 16px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .card .btn:hover {
+    opacity: .95;
+  }
+  
+  .card .btn .animation {
+    border-radius: 100%;
+    animation: ripple 0.6s linear infinite;
+  }
+  
+  @keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+    }
+  }
+
+  #mangaContainer2{
+    width: 100%;
+    height:700px;
+    background: repeating-radial-gradient(circle, #fff, #fff 5px, #000 6px);
+    background-size: 50px 100px;
+  }
+
+
+
+
+
+
+
+
+
+ 
