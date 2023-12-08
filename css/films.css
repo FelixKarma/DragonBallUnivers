@@ -3,8 +3,8 @@ background-image:url("../media/DBS Broly.jpg");
 }
 
 .scene--cardM1 {
-  width: 486px;
-  height: 300px;
+  width: 510px;
+  height: 340px;
    margin: 40px 0;
   perspective: 600px;
   margin-left: 15%;
@@ -12,21 +12,23 @@ background-image:url("../media/DBS Broly.jpg");
 
 }
 .scene--cardM2 {
-  width: 486px;
-  height: 300px;
+  width: 510px;
+  height: 340px;
   margin: 40px 0;
   perspective: 600px;
   margin-left: 15%;
+  
 
 }
 
 
 .scene--cardM3 {
-  width: 486px;
-  height: 300px;
+  width: 510px;
+  height: 340px;
   margin: 40px 0;
   perspective: 600px;
   margin-left: 15%;
+  margin-top: 50%;
 
 }
 .scene--cardM4 {
@@ -35,6 +37,7 @@ background-image:url("../media/DBS Broly.jpg");
   margin: 40px 0;
   perspective: 600px;
   margin-left: 15%;
+  margin-top: 50%;
 }
 
 .cardM {
@@ -69,7 +72,7 @@ background-image:url("../media/DBS Broly.jpg");
 .bg1 {
   background-image: url("../media/Storyevengokuenfant3.jpg");
   background-size: cover ;
-  border-radius: 5%;
+  border-radius: 2%;
   
 }
 .bg2 {
@@ -90,13 +93,14 @@ background-image:url("../media/DBS Broly.jpg");
 .cardM__face--back {
   background:black;
   transform: rotateY(180deg);
+  display:inline ;
   
  
 }
 
  p {
   text-align: center;
-  margin-top: 25% !important;
+  margin-top: 2% !important;
 
  
  } 
