@@ -64,7 +64,7 @@ background-attachment: fixed;
 }
 
 .cardM__face--back {
-  background: rgba(255, 166, 0, 0.319);
+  background: rgba(199, 130, 1, 0.8);
   transform: rotateY(180deg);
 }
 
