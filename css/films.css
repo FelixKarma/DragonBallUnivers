@@ -28,7 +28,7 @@ background-image:url("../media/DBS Broly.jpg");
   margin: 40px 0;
   perspective: 600px;
   margin-left: 15%;
-  margin-top: 50%;
+  
 
 }
 .scene--cardM4 {
@@ -37,7 +37,7 @@ background-image:url("../media/DBS Broly.jpg");
   margin: 40px 0;
   perspective: 600px;
   margin-left: 15%;
-  margin-top: 50%;
+  
 }
 
 .cardM {
@@ -76,26 +76,42 @@ background-image:url("../media/DBS Broly.jpg");
   
 }
 .bg2 {
-  background-image: url("../media/c0aea006-06c60ba29612_keyartofficialvideoimage FUSIONS.jpg");
+  background-image: url("../Media films/Image DBZ  FUSIONS.jpg");
   background-size: cover ;
   
 }
 .bg3{
-  background-image: url("../media/DRAGON.BALL gt 100.jpg");
+  background-image: url("../Media films/DRAGON.BALL gt 100.jpg");
   background-size: cover;
 }
 .bg4{
-  background-image: url("../media/dragon-ball-super-super-hero-to-release-in-june-in-japan-1200x676.jpg");
+  background-image: url("../Media films/dragon-ball-super-super-hero-to-release-in-june-in-japan-1200x676.jpg");
   background-size: cover;
 }
   
 
 .cardM__face--back {
-  background:black;
   transform: rotateY(180deg);
   display:inline ;
-  
- 
+}  
+
+.cardM__face--back1{
+  background-color: orangered;
+}
+.cardM__face--back2{
+  background-color: orangered;
+}
+
+.cardM__face--back3{
+  background-color: orangered;
+}
+
+
+.cardM__face--back4{
+  background-color: orangered;
+}
+.cardM__face img {
+  vertical-align: initial;
 }
 
  p {
