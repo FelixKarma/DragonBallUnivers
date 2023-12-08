@@ -1,4 +1,4 @@
-var listAudio = [
+var listAudio1 = [
     {
         name: "Makafushigi Adventure",
         desc: "Opening",
@@ -127,6 +127,10 @@ var listAudio4 = [
     }
 ]
 
+let playListItems;
+var indexAudio = 0;
+let listAudio;
+listAudioChoose("listAudio")
 
 function createTrackItem(index, name, desc, duration) {
     var trackItem = document.createElement('div');
@@ -150,32 +154,31 @@ function createTrackItem(index, name, desc, duration) {
 }
 
 function listAudioChoose(list) {
-    let choose;
     let tracksActive = document.getElementsByClassName("orange");
     switch (list) {
         case "listAudio":
-            choose=listAudio;
+            listAudio=listAudio1;
             tracksActive[0].classList.add("trackActive");
             tracksActive[1].classList.remove("trackActive");
             tracksActive[2].classList.remove("trackActive");
             tracksActive[3].classList.remove("trackActive");
             break;
         case "listAudio2":
-            choose=listAudio2;
+            listAudio=listAudio2;
             tracksActive[0].classList.remove("trackActive");
             tracksActive[1].classList.add("trackActive");
             tracksActive[2].classList.remove("trackActive");
             tracksActive[3].classList.remove("trackActive");
             break;
         case "listAudio3":
-            choose=listAudio3;
+            listAudio=listAudio3;
             tracksActive[0].classList.remove("trackActive");
             tracksActive[1].classList.remove("trackActive");
             tracksActive[2].classList.add("trackActive");
             tracksActive[3].classList.remove("trackActive");
             break;
         case "listAudio4":
-            choose=listAudio4;
+            listAudio=listAudio4;
             tracksActive[0].classList.remove("trackActive");
             tracksActive[1].classList.remove("trackActive");
             tracksActive[2].classList.remove("trackActive");
@@ -183,7 +186,7 @@ function listAudioChoose(list) {
             break;
     
         default:
-            choose=listAudio;
+            listAudio=listAudio1;
             tracksActive[0].classList.add("trackActive");
             tracksActive[1].classList.remove("trackActive");
             tracksActive[2].classList.remove("trackActive");
@@ -192,14 +195,19 @@ function listAudioChoose(list) {
     }
 
     document.querySelector(".playlist-ctn").innerHTML= "";
-    for (var i = 0; i < choose.length; i++) {
-        createTrackItem(i, choose[i].name, choose[i].desc, choose[i].duration);
+    for (var i = 0; i < listAudio.length; i++) {
+        createTrackItem(i, listAudio[i].name, listAudio[i].desc, listAudio[i].duration);
     }
+    if (indexAudio != 0) {
+        indexAudio = 0;
+    } 
+    next()
+    previous()
+    playListItems = document.querySelectorAll(".playlist-track-ctn");
+    pLI()
 }
 
-listAudioChoose("listAudio")
 
-var indexAudio = 0;
 function loadNewTrack(index) {
     var player = document.querySelector('#source-audio')
     player.src = listAudio[index].file
@@ -213,9 +221,12 @@ function loadNewTrack(index) {
     this.updateStylePlaylist(this.indexAudio, index)
     this.indexAudio = index;
 }
-var playListItems = document.querySelectorAll(".playlist-track-ctn");
-for (let i = 0; i < playListItems.length; i++) {
-    playListItems[i].addEventListener("click", getClickedElement.bind(this));
+
+function pLI() {
+    
+    for (let i = 0; i < playListItems.length; i++) {
+        playListItems[i].addEventListener("click", getClickedElement.bind(this));
+    }
 }
 function getClickedElement(event) {
     for (let i = 0; i < playListItems.length; i++) {
