@@ -8,6 +8,7 @@ body{
   overflow-x: hidden;
   margin: 0;
   background-color: black;
+  
 }
 
 body::before{
@@ -17,20 +18,22 @@ body::before{
     background-image: url(../media/2feb97087d41615ba57ff34f707e796d.jpg);
     background-size: cover;
     z-index: -1;
-    -webkit-filter: blur(8px);
+    filter: blur(8px);
+
 }
 
 
 .titre {
     text-align: center;
-    color: #fff;
+    color: rgb(255, 30, 0);
     font-size: 30px;
     -webkit-text-stroke: 0.1px black;
+    margin-top: 40px !important;
 }
 
 h4{
     text-align: center;
-    color: #fff;
+    color: #ff4949 !important;
     font-size: 18px;
     -webkit-text-stroke: 0.1px black;
 }

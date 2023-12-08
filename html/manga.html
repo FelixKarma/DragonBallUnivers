@@ -1,27 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/manga.css">
     <title>Manga</title>
 </head>
 
 <body>
     <header></header>
+    <!-- CAROUSEL BOOTSTRAP -->
+    <div id="carouselExample" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner pt-5 pb-5">
+            <div class="carousel-item  active" data-bs-interval="4000">
+                <div class="d-flex">
 
+                    <div class="card">
+                        <img src="../media/manga/test2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Dragon Ball Heros</h5>
+                            <p class="card-text">Le troisième volume de «Super Dragon Ball Heroes : Ultra God
+                                Mission!!!! »</p>
+                            <div>
+                                <button class="btn"><i class="animation"></i>Découvrir<i class="animation"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../media/manga/carousel3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dragon Ball Super</h5>
+                            <p class="card-text">Le tome 22 du manga Dragon Ball Super a été mis en vente au Japon lundi
+                                4 décembre !</p>
+                            <div>
+                                <button class="btn"><i class="animation"></i>Découvrir<i class="animation"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../media/manga/carousel4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SUPER DRAGON BALL HEROES 13th ANNIVERSARY SUPER GUIDE</h5>
+                            <p class="card-text">Désormais en vente au Japon </p>
+                            <div>
+                                <button class="btn"><i class="animation"></i>Découvrir<i class="animation"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <div class="d-flex">
 
+                    <div class="card">
+                        <img src="../media/manga/carousel5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Dragon Ball Heroes : Mission Météore !</h5>
+                            <p class="card-text">Le chapitre 1 de la nouvelle série est là !</p>
 
+                            <div>
+                                <button class="btn"><i class="animation"></i>Découvrir<i class="animation"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../media/manga/carousel6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Dragon Ball multiverse</h5>
+                            <p class="card-text">Tout se mélange, accrochez vos ceintures !</p>
+                            <div>
+                                <button class="btn"><i class="animation"></i>Découvrir<i class="animation"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../media/manga/carousel7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Dora Ultrarealistic</h5>
+                            <p class="card-text">Les fans l'attendaient, c'est enfin arrivé !</p>
+                            <div>
+                                <button class="btn"><i class="animation"></i>Découvrir<i class="animation"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-
-
-
+            <button class="carousel-control-prev h-25 my-auto" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon text-bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next h-25 my-auto" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon text-bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 
     
+    <!-- <div id="mangaList"> -->
+        
+        <ul class="team">
+            <li class="member livres">
+                <div class="thumb"><img src="../media/manga/miniature1.png"></div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae incidunt, aperiam nisi cupiditate laborum corporis fugiat natus assumenda quam inventore, odit eius excepturi voluptas !<br><a href="https://codepen.io/chriscoyier/">@DragonBallZ</a></p>
+                </div>
+            </li>
+            <li class="member livres">
+                <div class="thumb"><img src="../media/manga/miniature1.png"></div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae incidunt, aperiam nisi cupiditate laborum<br><a href="https://codepen.io/quezo/">@DragonBall</a></p>
+                </div>
+            </li>
+            <li class="member livres">
+                <div class="thumb"><img src="../media/manga/miniature1.png"></div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae incidunt, aperiam nisi cupiditate laborum corporis fugiat natus assumenda quam inventore, odit eius excepturi voluptas !<br><a href="https://codepen.io/chriscoyier/">@DragonBallZ</a></p>
+                </div>
+            </li>
+            <li class="member livres">
+                <div class="thumb"><img src="../media/manga/miniature1.png"></div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae incidunt, aperiam nisi cupiditate laborum<br><a href="https://codepen.io/quezo/">@DragonBall</a></p>
+                </div>
+            </li>
+            <li class="member livres">
+                <div class="thumb"><img src="../media/manga/miniature1.png"></div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae incidunt, aperiam nisi cupiditate laborum corporis fugiat natus assumenda quam inventore, odit eius excepturi voluptas !<br><a href="https://codepen.io/chriscoyier/">@DragonBallZ</a></p>
+                </div>
+            </li>
+            <li class="member livres">
+                <div class="thumb"><img src="../media/manga/miniature1.png"></div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae incidunt, aperiam nisi cupiditate laborum<br><a href="https://codepen.io/quezo/">@DragonBall</a></p>
+                </div>
+            </li>
+        </ul>
+    
+    <!-- </div> -->
+
+
+
+
+
     <footer></footer>
+
     <script src="../js/header+footer.js"></script>
     <script src="../js/navBar.js"></script>
+
 </body>
+
 </html>
