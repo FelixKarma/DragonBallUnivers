@@ -1,8 +1,151 @@
-body{
-    background: url(../media/Jeuxvideo.jpg);
-    background-size: cover;
+/* body {
+    background: url(../media/JVBG1.jpg);
+    background-size: contain; 
+}*/
+
+/* main {
+    height: 900px;
+} */
+
+/* TITRE */
+.titre {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 43%;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 2px rgb(255, 255, 255)
 }
 
-main{
-    height: 800px;
+#jeuv {
+    font-size: 70px;
+    font-family: "animeace";
+    text-align: center;
+    color: red !important;
 }
+
+#jvideo {
+    font-size: 100px;
+    font-family: "animeace";
+    text-align: center;
+    color: orange !important;
+
+}
+
+/* SOUS-TITRE */
+
+.sous-titre {
+
+    padding-left: 50px;
+    padding-top: 18px;
+    margin-bottom: 80px;
+    display: flex;
+    text-align: left;
+    background-color: orange;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+
+}
+
+#st {
+    font-size: 40px;
+    font-family: "animeace";
+    color: red !important;
+}
+
+#sttre {
+    font-size: 50px;
+    font-family: "animeace";
+    color: orange !important;
+}
+
+#soutitre {
+    font-size: 40px;
+    font-family: "animeace";
+    color: red !important;
+}
+
+.imgprez {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.row {
+    background-color: rgba(236, 4, 4, 0.814);
+    object-fit: contain;
+}
+
+.card-title {
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.card-text {
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+
+/* SOUS TITRE 1 */
+
+
+.sous-titre1 {
+
+    padding-left: 50px;
+    padding-top: 18px;
+    margin-bottom: 80px;
+    display: flex;
+    text-align: left;
+    background-color: orange;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
+#st1 {
+    font-size: 40px;
+    font-family: "animeace";
+    color: red !important;
+}
+
+#sttre1 {
+    font-size: 50px;
+    font-family: "animeace";
+    color: orange !important;
+}
+
+#soutitre1 {
+    font-size: 40px;
+    font-family: "animeace";
+    color: red !important;
+}
+
+#sstitre1 {
+    font-size: 50px;
+    font-family: "animeace";
+    color: orange !important;
+}
+
+#soustitre1 {
+    font-size: 40px;
+    font-family: "animeace";
+    color: red !important;
+}
+
+.dokkan {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.dblegends {
+    margin-top: 30px;
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.screenshots:hover {transform: scale(2);
+    /* opacity: .8; */
+    transition: .5s ease;}
