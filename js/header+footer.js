@@ -63,7 +63,7 @@ header[0].innerHTML = `
                 </div>
             </div>
     </div>
-    <div>
+    <div id="div2">
         <ul id="menuCo">
             <li><a href="Inscription-Login.html">Connexion</a></li>
             <li><a href="Inscription-Login.html">Inscription</a></li>
