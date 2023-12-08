@@ -16,12 +16,30 @@ link3.crossOrigin = "anonymous";
 link3.rel = "stylesheet";
 link3.integrity = "sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN";
 
+let link4 = document.createElement( "link" );
+link4.href = "../css/jeu.css";
+link4.type = "text/css";
+link4.rel = "stylesheet";
+
 headHtml[0].appendChild(link1)
 headHtml[0].appendChild(link2)
 headHtml[0].appendChild(link3)
+headHtml[0].appendChild(link4)
 
 const header = document.getElementsByTagName("header");
 const footer = document.getElementsByTagName("footer");
+
+
+function bipbip() {
+    let btnRadar = document.getElementById("btnRadar").checked
+
+    console.log(btnRadar);
+    if(btnRadar){
+    let track = new Audio("../media/radar.mp3")
+    track.play()
+
+    }
+}
 
 header[0].innerHTML = `
 <div id="header">
@@ -31,8 +49,19 @@ header[0].innerHTML = `
             <img src="../media/db-removebg-preview.png" alt="dbz" width="13.5%" />
             <h2 id="titre">DB</h2>
             <h2 id="tire">UNIVERSE</h2>
-
-        </a>
+            
+            </a>
+            <div class="randar-box">
+                <input type="checkbox" checked class="randar-checkbox" id="btnRadar" onclick="bipbip()"> 
+                <div class="randar-top"></div>
+                <div class="randar-top-body"></div>
+                <div class="randar-content">
+                    <div class="rander-ball"></div>
+                    <div class="rander-ball"></div>
+                    <div class="rander-ball"></div>
+                    <div class="rander-pos"></div>
+                </div>
+            </div>
     </div>
     <div>
         <ul id="menuCo">
@@ -50,7 +79,7 @@ nav.innerHTML = `
         <h2><a class="nav__link" href="serie.html">Séries</a></h2>
         <h2><a class="nav__link" href="films.html">Films</a></h2>
         <h2><a class="nav__link" href="manga.html">Manga</a></h2>
-        <h2><a class="nav__link" href="jeux.html">Jeux Vidal</a></h2>
+        <h2><a class="nav__link" href="jeux.html">Jeux Videal</a></h2>
         <h2><a class="nav__link" href="fanArt.html">Fan Art</a></h2>
         <h2><a class="nav__link" href="OST.html">Soundtracks</a></h2>
         <h2><a class="nav__link" href="Boutique.html">Boutique</a></h2>
