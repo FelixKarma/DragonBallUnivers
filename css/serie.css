@@ -71,7 +71,8 @@ background-attachment: fixed;
 
 .lien {
   display: flex;
-
+}
+.titre {text-align: center;
 
 }
 
