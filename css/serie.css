@@ -76,7 +76,13 @@ background-attachment: fixed;
 
 }
 
+p{
+  margin: 20px;
+}
 
+img{
+  margin: 10px;
+}
 
 
 
