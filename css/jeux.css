@@ -38,7 +38,8 @@ main {
 
 .vg {padding-bottom: 50px;
     margin: auto;
-    display: flex;}
+    display: flex;
+    }
 
 /* SOUS-TITRE (SMARTPHONE)*/
 
@@ -346,5 +347,10 @@ display: flex;}
 
 #dbtb {
     margin-left: 168px;
+    margin-bottom: 50px;
+}
+
+#gokuvegeta{
+    margin-left: 620px;
     margin-bottom: 50px;
 }
