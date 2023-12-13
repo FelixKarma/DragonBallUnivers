@@ -12,6 +12,7 @@ body {
 
 .page {
   min-height: 100vh;
+  padding-top: 15px;
   overflow: hidden;
 }
 
@@ -54,7 +55,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
+  z-index: 199;
   width: 90%;
   height: 90%;
   border-radius: 50%;
@@ -78,6 +79,7 @@ body {
   pointer-events: auto;
   transition: 0.3s;
   background: black;
+  z-index: 199;
 }
 .circle-carousel .pagination .dot:hover {
   transform: translate(-50%, -50%) scale(1.05);
@@ -278,22 +280,18 @@ body { font-family: sans-serif;
     display:inline ;
   }  
   
-  .cardM__face--back1{
+  .cardM__face--back1{ 
     background-color: rgba(94, 47, 0, 0.751);
   }
   .cardM__face--back2{
     background-color: rgba(94, 47, 0, 0.751);
   }
-  
   .cardM__face--back3{
     background-color: rgba(94, 47, 0, 0.751);
   }
-  
-  
   .cardM__face--back4{
     background-color: rgba(94, 47, 0, 0.751);
    }
-
   .cardM__face--back5{
     background-color: rgba(94, 47, 0, 0.751);
   }
@@ -338,12 +336,11 @@ body { font-family: sans-serif;
     align-items: center;
   }
   
-  p{
-    margin: 20px;
-  }
-  
-  img{
-    margin: 10px;
+  #text{
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #vv{
