@@ -280,44 +280,19 @@ body { font-family: sans-serif;
     display:inline ;
   }  
   
-<<<<<<< HEAD
-  .cardM__face--back1{
-    background-color: rgba(94, 47, 0, 0.751)
-  }
-  .cardM__face--back2{
-    background-color: rgba(94, 47, 0, 0.751)
-=======
   .cardM__face--back1{ 
     background-color: rgba(94, 47, 0, 0.751);
   }
   .cardM__face--back2{
     background-color: rgba(94, 47, 0, 0.751);
->>>>>>> 9c472037b74a0c7a98665768301792d066eb9ccf
   }
   .cardM__face--back3{
-<<<<<<< HEAD
-    background-color: rgba(94, 47, 0, 0.751)
-=======
     background-color: rgba(94, 47, 0, 0.751);
->>>>>>> 9c472037b74a0c7a98665768301792d066eb9ccf
   }
   .cardM__face--back4{
-<<<<<<< HEAD
-    background-color: rgba(94, 47, 0, 0.751)
-=======
     background-color: rgba(94, 47, 0, 0.751);
->>>>>>> 9c472037b74a0c7a98665768301792d066eb9ccf
    }
   .cardM__face--back5{
-<<<<<<< HEAD
-    background-color: rgba(94, 47, 0, 0.751)
-  }
-  .cardM__face--back6{
-    background-color: rgba(94, 47, 0, 0.751)
-  }
-  .cardM__face--back7{
-    background-color: rgba(94, 47, 0, 0.751)
-=======
     background-color: rgba(94, 47, 0, 0.751);
   }
   .cardM__face--back6{
@@ -325,7 +300,6 @@ body { font-family: sans-serif;
   }
   .cardM__face--back7{
     background-color: rgba(94, 47, 0, 0.751);
->>>>>>> 9c472037b74a0c7a98665768301792d066eb9ccf
   }
 
   .cardM__face img {
@@ -362,20 +336,11 @@ body { font-family: sans-serif;
     align-items: center;
   }
   
-<<<<<<< HEAD
   #text{
     margin: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
-=======
-  p{
-    margin: 20px;
-  }
-  
-  img{
-    margin: 10px;
->>>>>>> 9c472037b74a0c7a98665768301792d066eb9ccf
   }
   
   #vv{
