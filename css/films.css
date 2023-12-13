@@ -278,30 +278,26 @@ body { font-family: sans-serif;
     display:inline ;
   }  
   
-  .cardM__face--back1{
-    background-color: orangered;
+  .cardM__face--back1{ 
+    background-color: rgba(94, 47, 0, 0.751);
   }
   .cardM__face--back2{
-    background-color: orangered;
+    background-color: rgba(94, 47, 0, 0.751);
   }
-  
   .cardM__face--back3{
-    background-color: orangered;
+    background-color: rgba(94, 47, 0, 0.751);
   }
-  
-  
   .cardM__face--back4{
-    background-color: orangered;
+    background-color: rgba(94, 47, 0, 0.751);
    }
-
   .cardM__face--back5{
-    background-color: orangered;
+    background-color: rgba(94, 47, 0, 0.751);
   }
   .cardM__face--back6{
-    background-color: orangered;
+    background-color: rgba(94, 47, 0, 0.751);
   }
   .cardM__face--back7{
-    background-color: orangered;
+    background-color: rgba(94, 47, 0, 0.751);
   }
 
   .cardM__face img {
