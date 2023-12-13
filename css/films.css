@@ -335,9 +335,15 @@ body { font-family: sans-serif;
     align-items: center;
   }
   
+  p{
+    margin: 20px;
+  }
   
+  img{
+    margin: 10px;
+  }
   
-  
-  
-  
+  #vv{
+    margin-bottom: 30px;
+  }
    
