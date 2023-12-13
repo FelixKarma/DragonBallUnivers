@@ -1,0 +1,180 @@
+body {
+    background: #fc632e url(https://img00.deviantart.net/5828/i/2011/333/a/2/logos_020___dragon_ball_020_by_vicdbz-d4hnd6k.png) bottom right no-repeat;
+    background-size: 325px auto;
+    height: 95vh;
+  }
+  
+  .status {
+    width: 1024px;
+    height: 30px;
+    margin: auto;
+    margin-top: 1em;
+    display:flex;
+    justify-content:flex-end;
+    font-family:Arial, serif;
+    font-size:15px;
+    color:#FFF;
+  }
+  
+  #power {
+    margin-left:1em;
+  }
+  
+  .board {
+    border: 2px solid #FFF;
+    width: 1024px;
+    height: 362px;
+    margin: auto;
+    background:url(https://manzdev.github.io/cursos-assets/js/goku-back.jpg) no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  }
+  
+  /* Estilos del personaje por defecto */
+  
+  .goku {
+    background: url(http://i.imgsafe.org/4458c5dbc1.png); /*preload*/ 
+    background: url(http://i.imgsafe.org/ed8adec823.png);
+    background:url(https://manzdev.github.io/cursos-assets/js/goku-sprite.png?4);
+    background-repeat: no-repeat;
+    background-position: -6px -20px;
+    width: 60px;
+    height: 92px;
+    animation: floatingGoku 2s ease infinite alternate;
+    
+    /* Relative es necesario para mover a Goku */
+    position: relative;
+  }
+  
+  .goku.saiyan {
+    background-image: url(http://i.imgsafe.org/4458c5dbc1.png);
+    background-image:url(https://manzdev.github.io/cursos-assets/js/goku-saiyan-sprite.png);  
+  }
+  
+  @keyframes floatingGoku {
+    0%,
+    100% {
+      transform: translateY(-1px)
+    }
+    25% {
+      transform: translateY(2px)
+    }
+    50% {
+      transform: translateY(-2px)
+    }
+    75% {
+      transform: translateY(1px)
+    }
+  }
+  
+  /* Puñetazos (al pulsar CTRL) */
+  
+  .punch {
+    background-position: -6px -132px;
+    width: 72px;
+    height: 88px;
+    animation: punch .3s steps(2) infinite;
+  }
+  
+  @keyframes punch {
+    0% {
+      background-position: -6px -132px
+    }
+    100% {
+      background-position: -164px -132px
+    }
+  }
+  
+  /* Energía: Al pulsar Espacio */
+  
+  .energy {
+    animation: energy 2s ease infinite;
+  }
+  
+  .fullenergy {
+    background-position: -812px -236px;
+    width: 62px;
+    height: 94px;
+    filter:drop-shadow(0 0 10px orange)
+  }
+  
+  @keyframes energy {
+    0%,
+    100% {
+      filter: drop-shadow(0 0 5px yellow)
+    }
+    25% {
+      filter: drop-shadow(0 0 25px yellow)
+    }
+    50% {
+      filter: drop-shadow(0 0 10px yellow)
+    }
+    75% {
+      filter: drop-shadow(0 0 15px yellow)
+    }
+  }
+  
+  
+  /* Dirección (izquierda) */
+  
+  .goLeft {
+    background-position: -240px -26px;
+    width: 58px;
+    height: 86px;
+  }
+  
+  
+  /* Dirección (derecha) */
+  
+  .goRight {
+    background-position: -158px -30px;
+    width: 64px;
+    height: 82px;
+  }
+  
+  /* Datos de información */
+  
+  .info {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    color:#FFF;
+  }
+  
+  kbd {
+    padding: 1px 6px;
+    white-space: nowrap;
+    color: #333;
+    background: #eee;
+    border-width: 1px 3px 3px;
+    border-style: solid;
+    border-color: #ccc #bbb #777;
+    position: relative;
+    top: -2px
+  }
+  
+  code,
+  kbd {
+    font-family: Courier New, Monospace;
+    font-size: 18px
+  }
+  
+  .notice { 
+    margin-top:4em;
+    font-family:Arial, serif;
+    color:#FFF;
+    text-align:center;
+    font-size:18px;
+    display:none;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    
+    .board { display:none }
+    .notice { display:block }
+    
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

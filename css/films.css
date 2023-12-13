@@ -1,147 +1,343 @@
-body { font-family: sans-serif;
-background-image:url("../media/DBS Broly.jpg");
+* {
+  box-sizing: border-box;
 }
 
-.scene--cardM1 {
-  width: 510px;
-  height: 340px;
-   margin: 40px 0;
-  perspective: 600px;
-   
-
-}
-.scene--cardM2 {
-  width: 510px;
-  height: 340px;
-  margin: 40px 0;
-  perspective: 600px;
-  
-
-}
-
-
-.scene--cardM3 {
-  width: 510px;
-  height: 340px;
-  margin: 40px 0;
-  perspective: 600px;
-  
-
-}
-.scene--cardM4 {
-  width: 486px;
-  height: 300px;
-  margin: 40px 0;
-  perspective: 600px;
-  
-}
-
-.cardM {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  cursor: auto;
-  transform-style: preserve-3d;
-  transform-origin: center right;
-  transition: transform 1s;
-  
-  
-  
-}
-
-.cardM.is-flipped {
-  transform: translateX(-100%) rotateY(-180deg);
-}
-
-.cardM__face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+body {
+  /* background: #333; */
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
   color: white;
-  text-align: center;
-  font-weight: bold;
-  backface-visibility: hidden;
-  border-radius: 5%;
- 
 }
 
-.bg1 {
-  background-image: url("../media/Storyevengokuenfant3.jpg");
-  background-size: cover ;
-  border-radius: 2%;
-  
-}
-.bg2 {
-  background-image: url("../Media films/Image DBZ  FUSIONS.jpg");
-  background-size: cover ;
-  
-}
-.bg3{
-  background-image: url("../Media films/DRAGON.BALL gt 100.jpg");
-  background-size: cover;
-}
-.bg4{
-  background-image: url("../Media films/dragon-ball-super-super-hero-to-release-in-june-in-japan-1200x676.jpg");
-  background-size: cover;
-}
-  
-
-.cardM__face--back {
-  transform: rotateY(180deg);
-  display:inline ;
-}  
-
-.cardM__face--back1{
-  background-color: orangered;
-}
-.cardM__face--back2{
-  background-color: orangered;
+.page {
+  min-height: 100vh;
+  overflow: hidden;
 }
 
-.cardM__face--back3{
-  background-color: orangered;
+/* .container {
+  max-width: 800px;
+  margin: 0 auto;
+} */
+
+.circle-carousel {
+  position: relative;
+  padding-top: 100%;
+  /* background: rgba(0, 0, 0, 0.3); */
 }
-
-
-.cardM__face--back4{
-  background-color: orangered;
+.circle-carousel .slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-.cardM__face img {
-  vertical-align: initial;
-}
-
- p {
-  text-align: center;
-  margin-top: 2% !important;
-
- 
- } 
-
-
- .cardM__face h2 {
- color:black !important;
- text-align: center !important;
- margin-left: auto;
- margin-right: auto;
-}
-
-.cg2{
-  background-color: black;
-}
-.cg3{
-
-  background-color: black;
-}
-
-.ladiv{
+.circle-carousel .slide {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0;
+  /* background: rgba(255, 0, 0, 0.3); */
+}
+.circle-carousel .slide.active {
+  z-index: 1;
+  opacity: 1;
+}
+.circle-carousel .pagination {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  /* border: 3px solid white; */
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  pointer-events: none;
+  user-select: none;
+}
+.circle-carousel .pagination .dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  pointer-events: auto;
+  transition: 0.3s;
+  background: black;
+}
+.circle-carousel .pagination .dot:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+.circle-carousel .pagination .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.circle-carousel .pagination .item.active .dot {
+  background: white;
+  color: black;
+}
+.circle-carousel .next,
+.circle-carousel .prev {
+  position: absolute;
+  bottom: 6%;
+  z-index: 1;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  transition: 0.3s;
+  user-select: none;
+}
+.circle-carousel .next:before,
+.circle-carousel .prev:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-color: transparent black;
+  transition: 0.3s;
+}
+.circle-carousel .next:hover,
+.circle-carousel .prev:hover {
+  cursor: pointer;
+  color: black;
+}
+.circle-carousel .next:hover:before,
+.circle-carousel .prev:hover:before {
+  border-color: transparent white;
+  transform: translate(-50%, -50%) scale(1.05);
+}
+.circle-carousel .next {
+  right: 5%;
+}
+.circle-carousel .next:before {
+  left: 65%;
+  border-width: 30px 0 30px 70px;
+}
+.circle-carousel .prev {
+  left: 5%;
+}
+.circle-carousel .prev:before {
+  left: 35%;
+  border-width: 30px 70px 30px 0;
 }
 
 
 
+body { font-family: sans-serif;
+  background-image:url("../media/DBS Broly.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+  
+  .scene--cardM1 {
+    width: 1020px;
+    height: 680px;
+     margin: 40px 0;
+    perspective: 600px;
+     
+  
+  }
+  .scene--cardM2 {
+    width: 1020px;
+    height: 680px;
+    margin: 40px 0;
+    perspective: 600px;
+    
+  
+  }
+  
+  
+  .scene--cardM3 {
+    width: 1020px;
+    height: 680px;
+    margin: 40px 0;
+    perspective: 600px;
+    
+  
+  }
+  .scene--cardM4 {
+    width: 1020px;
+    height: 680px;
+    margin: 40px 0;
+    perspective: 600px;
+    
+  }
 
+  .scene--cardM5 {
+    width: 1020px;
+    height: 680px;
+    margin: 40px 0;
+    perspective: 600px;
+    
+  }
+  .scene--cardM6 {
+    width: 1020px;
+    height: 680px;
+    margin: 40px 0;
+    perspective: 600px;
+  }
+  .scene--cardM7 {
+    width: 1020px;
+    height: 680px;
+    margin: 40px 0;
+    perspective: 600px;
+  }
+  
+  .cardM {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: auto;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+    
+    
+    
+  }
+  
+  .cardM.is-flipped {
+    transform: translateX(-100%) rotateY(-180deg);
+  }
+  
+  .cardM__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    backface-visibility: hidden;
+    border-radius: 5%;
+   
+  }
+  
+  .bg1 {
+    background-image: url("../media/Storyevengokuenfant3.jpg");
+    background-size: cover ;
+    border-radius: 2%;
+    
+  }
+  .bg2 {
+    background-image: url("../media/c0aea006-06c60ba29612_keyartofficialvideoimage FUSIONS.jpg");
+    background-size: cover ;
+    
+  }
+  .bg3{
+    background-image: url("../media/DRAGON.BALL gt 100.jpg");
+    background-size: cover;
+  }
+  .bg4{
+    background-image: url("../media/dragon-ball-super-super-hero-to-release-in-june-in-japan-1200x676.jpg");
+    background-size: cover;
+  }
+  .bg5{
+    background-image:url("./Media films/Cent mille guerriers de Métal.jpg") ;
+    background-size: cover;
+  }
+    
+  .bg6{
+    background-image: url("../Media films/Les Mercenaires de l'espace.webp");
+    background-size: cover;
+  }
+  .bg7{
+    background-image: url("../Media films/Dragon Ball super Broly.jpg");
+    background-size: cover;
+  }
+  
+    
+  
+  .cardM__face--back {
+    transform: rotateY(180deg);
+    display:inline ;
+  }  
+  
+  .cardM__face--back1{
+    background-color: orangered;
+  }
+  .cardM__face--back2{
+    background-color: orangered;
+  }
+  
+  .cardM__face--back3{
+    background-color: orangered;
+  }
+  
+  
+  .cardM__face--back4{
+    background-color: orangered;
+   }
 
+  .cardM__face--back5{
+    background-color: orangered;
+  }
+  .cardM__face--back6{
+    background-color: orangered;
+  }
+  .cardM__face--back7{
+    background-color: orangered;
+  }
 
- 
+  .cardM__face img {
+    vertical-align: initial;
+    
+  }
+  
+   p {
+    text-align: center;
+    margin-top: 2% !important;
+  
+   
+   } 
+  
+  
+   .cardM__face h2 {
+   color:black !important;
+   text-align: center !important;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  
+  .cg2{
+    background-color: black;
+  }
+  .cg3{
+  
+    background-color: black;
+  }
+  
+  .ladiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  
+  
+  
+  
+  
+   
