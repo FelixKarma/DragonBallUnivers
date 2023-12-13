@@ -90,6 +90,7 @@ footer[0].innerHTML = `
         <h2 class="textefooter"><a href="../html/FAQ.html">FAQ</a>
             <a href="../html/cgu.html">CGU</a>
         </h2>
+        <img src="../media/gifgoku.gif" alt="..." id="gifgoku" width="400" height="80" >
         <div>
             <a href="https://discord.com/invite/Xuu9WUNGQ6" target="_blank"><img src="../media/footer/🦆 icon _discord_.png"
                     alt="liens" width="55" height="40"></a>
@@ -97,6 +98,8 @@ footer[0].innerHTML = `
                     width="50" height="40"></a>
             <a href="https://www.instagram.com/dgbuniverse/" target="_blank"><img id="insta"
                     src="../media/footer/images-removebg-preview.png" alt="liens" width="50" height="50"></a>
+            
+                    
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
