@@ -1,7 +1,7 @@
-/* body {
-    background: url(../media/JVBG1.jpg);
-    background-size: contain; 
-}*/
+body {
+    background: url(../media/Namek.jpg);
+    background-size:cover; 
+}
 
 /* main {
     height: 900px;
@@ -63,6 +63,9 @@
     font-family: "animeace";
     color: red !important;
 }
+
+/* CARTE PRESENTATION */
+
 
 .imgprez {
     display: flex;
@@ -141,11 +144,52 @@
 .dblegends {
     margin-top: 30px;
     display: flex;
-
     justify-content: space-around;
 
 }
 
-.screenshots:hover {transform: scale(2);
+.screenshots:hover {
+    transform: scale(2);
     /* opacity: .8; */
-    transition: .5s ease;}
+    transition: .5s ease;
+}
+
+.dbsparking {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.dbheroes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dbkakarot {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.dbfighterz {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.dbxenoverse {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.dbthebreakers {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
