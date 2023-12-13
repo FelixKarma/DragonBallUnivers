@@ -151,6 +151,9 @@ body { font-family: sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
   }
+  h1{
+    margin-left:30%;
+  }
   
   .scene--cardM1 {
     width: 1020px;
