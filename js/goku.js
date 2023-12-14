@@ -27,7 +27,7 @@ var sounds = {
     var power = document.querySelector('#power');
     if (charging) {
       power.value += 15;
-      charging = setTimeout(charge, 1000);
+      charging = setTimeout(charge, 300);
     }
     if ((power.value > 99) && (!goku.classList.contains('saiyan'))) {
       goku.classList.add('fullenergy');

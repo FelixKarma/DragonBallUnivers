@@ -219,3 +219,19 @@ function changeimage5(element) {
             break;
     }
 }
+
+//Bouton Mute
+
+function volume(){
+    let volume = document.getElementById("volume")
+    let myAudio = document.getElementById("myAudio")
+    console.log(volume.src);
+    // let track = new Audio("../media/Télé shopping theme - la version longue.mp3")
+    if(volume.src.includes("volume_mute.png")){
+        document.querySelector("#volume").src = "../media/volume_play.png"
+        myAudio.play()
+    } else{
+        document.querySelector("#volume").src = "../media/volume_mute.png"
+        myAudio.pause();
+    }                            
+}
