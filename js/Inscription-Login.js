@@ -26,12 +26,13 @@ function pshhhhhhhhhwshwsh() {
     let pswCo = document.getElementById("pswCo").value
     let pseudoInsc = localStorage.getItem("pseudoInsc")
     let pswInsc = localStorage.getItem("pswInsc")
+    
    
     console.log(pseudoCo + " " + pswCo);
     if((pseudoCo==pseudoInsc && pswCo==pswInsc) ){
     let track = new Audio("../media/dbz_transfo_sound.mp3")
     track.play()
-    
+    localStorage.setItem("login",true);
         setTimeout(function() {
             document.location.href = "accueil.html";
         },2400)
