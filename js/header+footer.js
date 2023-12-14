@@ -65,14 +65,20 @@ header[0].innerHTML = `
     </div>
     <div id="div2">
         <ul id="menuCo">
-            <li><a href="Inscription-Login.html">Connexion</a></li>
-            <li><a href="Inscription-Login.html">Inscription</a></li>
+            <li><a href="Inscription-Login.html" id="co">Connexion</a></li>
+            <li><a href="Inscription-Login.html" id="insc">Inscription</a></li>
+            <li><a href="Inscription-Login.html" id="deco" onclick="localStorage.removeItem('login')">Déconnexion</a></li>
         </ul>
         <img src="../media/pp.png" alt="profil" width="105" height="105" id="profil" />
     </div>
 </div>
-
 `
+
+if(localStorage.getItem("login")){
+    document.getElementById("deco").style.display = "block"
+    document.getElementById("co").style.display = "none"
+    document.getElementById("insc").style.display = "none"
+}
 
 let nav = document.createElement("nav");
 nav.innerHTML = `
