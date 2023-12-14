@@ -24,7 +24,9 @@
                     <label for="pseudo">Pseudo</label><br>
                     <input type="text" name="pseudo" id="pseudoCo" placeholder="votre pseudo" required><br><br>
                     <label for="password">Mot de passe</label><br>
-                    <input type="password" name="password" id="pswCo" placeholder="password" required><br><br>
+                    <input type="password" name="password" id="pswCo" placeholder="password" required>
+                    <p id="wrongpsw">Password Incorrect</p>
+                    <br><br>
                     <input type="button" value="connexion" onclick="pshhhhhhhhhwshwsh()"><br>
                     <div class="kame">
                         <input type="image" src="../media/kamesenin.webp" alt=""
@@ -47,8 +49,10 @@
                     <label for="password">Mot de passe</label><br>
                     <input type="password" name="password" id="pswInsc" placeholder="mot de passe" required><br><br>
                     <label for="confirmpass">Confirmer mot de passe</label><br>
-                    <input type="password" name="confirmpass" id="conPswInsc" placeholder="retapez votre mot de passe" required><br><br>
-                    <input type="submit" value="envoyer demande" onclick="pshhhhhhhhhwshwsh()">
+                    <input type="password" name="confirmpass" id="conPswInsc" placeholder="retapez votre mot de passe" required oninvalid="this.setCustomValidity('Veuillez saisir un mot de passe identique')">
+                    
+                    <br><br>
+                    <input type="submit" value="envoyer demande" id="test" onclick="pshhhhhhhhhwshwsh0()">
                 </form>
             </div>
         </div>

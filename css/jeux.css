@@ -1,70 +1,86 @@
-body {
-    background: url(../media/Namek.jpg);
-    background-size:cover; 
+main {
+    /* background: url(../media/JeuxVideo/bgcell2.png);
+    background-size: contain; */
+   background-color: black;
+   
+   
 }
-
+ 
 /* main {
     height: 900px;
 } */
 
 /* TITRE */
+
 .titre {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 43%;
+    padding-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 36%;
     display: flex;
     align-items: center;
     -webkit-text-stroke: 2px rgb(255, 255, 255)
 }
 
 #jeuv {
-    font-size: 70px;
+    font-size: 90px;
     font-family: "animeace";
     text-align: center;
     color: red !important;
 }
 
 #jvideo {
-    font-size: 100px;
+    font-size: 120px;
     font-family: "animeace";
     text-align: center;
     color: orange !important;
 
 }
 
-/* SOUS-TITRE */
+.vg {padding-bottom: 50px;
+    margin: auto;
+    display: flex;
+    }
+
+/* SOUS-TITRE (SMARTPHONE)*/
 
 .sous-titre {
-
+    border:ridge ;
+    border-style: ridge;
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
     padding-left: 50px;
     padding-top: 18px;
+    padding-bottom: 15px;
+    margin-left: 70px   ;
+    margin-right: 70px;
     margin-bottom: 80px;
     display: flex;
     text-align: left;
-    background-color: orange;
+    background-color: rgb(39, 68, 160);
     -webkit-text-stroke: 2px rgb(255, 255, 255);
 
 }
 
 #st {
-    font-size: 40px;
+    font-size: 55px;
     font-family: "animeace";
     color: red !important;
 }
 
 #sttre {
-    font-size: 50px;
+    font-size: 45px;
     font-family: "animeace";
     color: orange !important;
 }
 
 #soutitre {
-    font-size: 40px;
+    font-size: 55px;
     font-family: "animeace";
     color: red !important;
 }
 
 /* CARTE PRESENTATION */
+
 
 
 .imgprez {
@@ -80,60 +96,90 @@ body {
     object-fit: contain;
 }
 
+.rowrange {
+    background-color: darkorange !important;
+}
+
 .card-title {
     margin-left: 10px;
     font-weight: 700;
+    
 }
 
 .card-text {
     margin-left: 10px;
-    color: aliceblue;
+    color: rgb(249, 249, 249);
+}
+
+.card-text1 {
+    margin-left: 10px;
+    color: rgb(249, 249, 249);
+    font-style: italic;
+
+}
+
+.card-text2 {
+    margin-left: 10px;
+    color: rgb(249, 249, 249);
+    text-decoration: underline;
+}
+
+.btn {
+    box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
 
-/* SOUS TITRE 1 */
+/* SOUS TITRE 1 (CONSOLES) */
 
 
 .sous-titre1 {
-
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
     padding-left: 50px;
     padding-top: 18px;
+    margin-left: 70px   ;
+    margin-right: 70px;
     margin-bottom: 80px;
     display: flex;
     text-align: left;
-    background-color: orange;
+    background-color: rgb(39, 68, 160);
     -webkit-text-stroke: 2px rgb(255, 255, 255);
 }
 
 #st1 {
-    font-size: 40px;
+    font-size: 45px;
     font-family: "animeace";
     color: red !important;
 }
 
 #sttre1 {
-    font-size: 50px;
+    font-size: 55px;
     font-family: "animeace";
     color: orange !important;
 }
 
 #soutitre1 {
-    font-size: 40px;
+    font-size: 45px;
     font-family: "animeace";
     color: red !important;
 }
 
 #sstitre1 {
-    font-size: 50px;
+    font-size: 55px;
     font-family: "animeace";
     color: orange !important;
 }
 
 #soustitre1 {
-    font-size: 40px;
+    font-size: 45px;
     font-family: "animeace";
     color: red !important;
 }
+
+            /* DOKKAN */
 
 .dokkan {
     display: flex;
@@ -141,55 +187,170 @@ body {
 
 }
 
+.gif1 { margin: auto;
+display: flex;}
+
+            /* DB LEGENDS */
+
 .dblegends {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 35px;
+    padding-bottom: 70px;
 
 }
 
-.screenshots:hover {
-    transform: scale(2);
-    /* opacity: .8; */
+#vdbl {
+    position: relative;
+    right: 1px;
+}
+
+.screenshotssmart:hover {
+    transform: scale(1.8);
     transition: .5s ease;
 }
+
+.screenshotssmart1:hover {
+    transform: scale(2);
+    transition: .5s ease;
+}
+
+.screenshotssmart {
+    border: solid;
+    border-color: darkorange;
+}
+
+.screenshotssmart1 {
+    border: solid;
+    border-color: red;
+}
+
+.screenshots {
+    border: solid;
+    border-color: darkorange;
+}
+
+.screenshots1 {
+    border: solid;
+    border-color: red;
+}
+
+.videos1 {
+    border: solid;
+    border-color: darkorange;
+}
+
+.videos {
+    border: solid;
+    border-color: red;
+}
+
+            /* DB SPARKING */
 
 .dbsparking {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
-
+    flex-wrap: wrap;
+    padding-top: 25px;
 }
+
+#sparkzero1 {margin-left: 170px;}
+
+
+            /* DB HEROES */
+
 
 .dbheroes {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+#dbh {
+    margin-left: 148px
+}
+
+
+#vidspark {position: relative; right:10px;}
+
+            /* DB KAKAROT */
 
 .dbkakarot {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
+#dbk {
+    margin-left: 155px
+}
+
+#vdbk {
+    position: relative;
+    right: 18px;
+}
+
+            /* DB FIGHTERZ */
 
 .dbfighterz {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
+#dbfz {
+    margin-left: 158px;
+}
+
+#vdbfz {
+    position: relative;
+    right: 15px;
+}
+
+            /* DB XENOVERSE */
 
 .dbxenoverse {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+#vdbx {
+    position: relative;
+    right: 12px;
+}
+
+#dbx {
+    margin-left: 165px;
+}
+
+        /* DB THE BREAKERS */
 
 
 .dbthebreakers {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#vdbtb {
+    position: relative;
+    right: 10px;
+}
+
+#dbtb {
+    margin-left: 168px;
+    margin-bottom: 50px;
+}
+
+#gokuvegeta{
+    margin-left: 620px;
+    margin-bottom: 50px;
 }
