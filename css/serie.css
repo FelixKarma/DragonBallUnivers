@@ -75,6 +75,23 @@ background-attachment: fixed;
 .titre {text-align: center;
 
 }
+/* POP UP */
+#Son_Goku, #Bulma, 
+#Son_GokuZ, #Chichi, #Gohan, #Piccolo, #Radditz,
+#Son_GokuS, #Beerus, #Whis,
+#Son_GokuGT, #TrunksGT, #Pan,
+#Son_GokuH, #Trunks, #Vegeta
+
+{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 15px;
+}
+
+
 
 
 
