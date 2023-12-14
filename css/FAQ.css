@@ -15,10 +15,10 @@ body::before{
       content: "";
       position: fixed;
       height: 100%; width: 100%;
-      background-image: url(../media/2feb97087d41615ba57ff34f707e796d.jpg);
+      background-image: url(../media/rom2.png);
       background-size: cover;
       z-index: -1;
-      -webkit-filter: blur(8px);
+      -webkit-filter: blur(0px);
   
   }
 

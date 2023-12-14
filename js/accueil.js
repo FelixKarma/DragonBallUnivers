@@ -72,3 +72,16 @@ function removeHover5() {
     document.getElementById("boutique").style.border = "";
     document.getElementById("texteBoutique").style.color="";
 }
+
+//section SOUNDTRACKS
+
+function hoverEffect6() {
+    document.getElementById("boutique").style.border="solid 3px red";
+    document.getElementById("texteBoutique").style.color="orange";
+
+}
+
+function removeHover6() {
+    document.getElementById("boutique").style.border = "";
+    document.getElementById("texteBoutique").style.color="";
+}
