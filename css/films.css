@@ -347,3 +347,26 @@ body { font-family: sans-serif;
     margin-bottom: 30px;
   }
 
+  #bulma, #Sangoku{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+   
+  
+.image-clignote  {
+  animation-duration:1.00000000s;
+  animation-name: clignoter;
+  animation-iteration-count: infinite;
+  transition: none;
+}
+@keyframes clignoter {
+ 0%   { opacity:1; }
+ 40%   {opacity:0; }
+ 100% { opacity:1; }
+}
+p{
+  margin: 20px;
+}
