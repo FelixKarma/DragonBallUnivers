@@ -13,7 +13,7 @@ body {
     justify-content:flex-end;
     font-family:Arial, serif;
     font-size:15px;
-    color:#FFF;
+    color:#000000;
   }
   
   #power {
@@ -137,7 +137,7 @@ body {
     font-family: Arial;
     font-size: 18px;
     text-align: center;
-    color:#FFF;
+    color:#000000;
   }
   
   kbd {

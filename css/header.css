@@ -49,7 +49,7 @@ body{
 #div1 a img{
     border: 1.8px solid white;
     border-radius: 100px;
-
+    cursor: pointer;
 }
 
 div ul {
@@ -81,14 +81,14 @@ header img{
 #titre{
     margin: 5px;
     color: rgb(247, 153, 12); 
-    
+    cursor: pointer;
 
 }
 
 #tire{
     margin: 5px;
     color: rgb(255, 0, 0); 
-
+    cursor: pointer;
 }
 
 footer .textefooter{
@@ -155,4 +155,8 @@ nav h2{
 
     height: 38.4px;
 
+}
+
+#deco{
+    display: none;
 }

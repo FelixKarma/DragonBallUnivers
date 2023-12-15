@@ -347,7 +347,7 @@ body { font-family: sans-serif;
     margin-bottom: 30px;
   }
 
-  #bulma, Sangoku{
+  #bulma, #Sangoku{
     display: none;
     position: fixed;
     top: 50%;
@@ -366,4 +366,7 @@ body { font-family: sans-serif;
  0%   { opacity:1; }
  40%   {opacity:0; }
  100% { opacity:1; }
+}
+p{
+  margin: 20px;
 }
